@@ -4,7 +4,7 @@
 
 ## About
 
-This repository contains an analysis of air temperature trends in Slovakia from 1940 to 2024, highlighting how monthly average temperatures have shifted over time. The analysis, visualized through an animated GIF, reveals key trends in Slovakia’s temperature history and offers insights into climate change's impact on this region.
+This repository contains an analysis of air temperature trends in Slovakia from 1940 to 2023, highlighting how monthly average temperatures have shifted over time. The analysis, visualized through an animated GIF, reveals key trends in Slovakia’s temperature history and offers insights into climate change's impact on this region.
 
 Two Python scripts are included:
 - **Data Download Script**: Downloads monthly air temperature data for Slovakia from the Copernicus Climate Change Service (C3S).
@@ -37,8 +37,8 @@ The `analysis_visualization.py` script generates this animated visualization, st
 ## Key Findings
 
 The analysis yields several notable insights:
-- **Temperature Increase**: There is a clear upward trend in air temperatures in Slovakia over the 80-year period.
-- **Uneven Warming**: Months of May, and partially April, exhibit significantly smaller increases in temperature compared to other months, suggesting potential seasonal nuances in warming patterns.
+- **Temperature Increase**: Obviously, there is a clear upward trend in air temperatures in Slovakia over the 80-year period. The animation below shows by how much the temperature increased in each month.
+- **Uneven Warming**: Months of May, and partially April, exhibit significantly smaller increases in temperature compared to other months, suggesting potential seasonal nuances in warming patterns. For deailed view, see the static image below, where the final iteration of the animation is shown with the 10-years temperature averages for 2014-2023. 
 
 ## Installation and Usage
 
@@ -78,9 +78,18 @@ Below is an example of the generated visualization:
 
 The animation demonstrates how temperatures have risen, with colors intensifying as temperatures increase over time.
 
+Below is the final iteration (2014-2023) from previous animation showing by how much the temperature increased in each month compared to cummulative average:
+
+![10_year](https://github.com/user-attachments/assets/81917482-b276-496b-8893-47a47edbe242)
+
+
 ## Acknowledgments
 
 This project utilizes data from the **Copernicus Climate Change Service (C3S)**. Part of the code was generated with assistance from ChatGPT to streamline data processing and visualization.
+
+## Disclaimer
+
+This analysis was generated using information from the Copernicus Climate Change Service (C3S). The European Commission and the European Centre for Medium-Range Weather Forecasts (ECMWF) are not responsible for any use that may be made of the information it contains. The contents of this analysis are solely the responsibility of the author(s) and do not necessarily reflect the views of the European Commission or ECMWF.
 
 
 ## License
