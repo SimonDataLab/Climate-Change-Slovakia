@@ -38,13 +38,13 @@ The `analysis_visualization.py` script generates this animated visualization, st
 
 The analysis yields several notable insights:
 - **Temperature Increase**: Obviously, there is a clear upward trend in air temperatures in Slovakia over the 80-year period. The animation below shows by how much the temperature increased in each month.
-- **Uneven Warming**: Months of May, and partially April, exhibit significantly smaller increases in temperature compared to other months, suggesting potential seasonal nuances in warming patterns. For deailed view, see the static image below, where the final iteration of the animation is shown with the 10-years temperature averages for 2014-2023. 
+- **Uneven Warming**: Months of May, and partially April, exhibit significantly smaller increases in temperature compared to other months, suggesting potential seasonal nuances in warming patterns. For detailed view, see the static image below, where the final iteration of the animation is shown with the 10-years temperature averages for 2014-2023. 
 
 ## Installation and Usage
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/Climate-Change-Slovakia.git
+    git clone https://github.com/SimonDataLab/Climate-Change-Slovakia.git
     cd Climate-Change-Slovakia
     ```
 
@@ -76,7 +76,7 @@ Below is an example of the generated visualization:
 
 ![Temperature Trend Animation](results/temperature_trend.gif)
 
-The animation demonstrates how temperatures have risen, with colors intensifying as temperatures increase over time.
+The animation demonstrates how temperatures' 10-year moving averages have moved over time, with the red curve representing specific 10 year period and grey representing past periods.
 
 Below is the final iteration (2014-2023) from previous animation showing by how much the temperature increased in each month compared to cummulative average:
 
