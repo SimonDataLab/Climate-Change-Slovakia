@@ -74,13 +74,13 @@ The animated GIF (`temperature_trend.gif`) visualizes 10-year moving averages of
 
 Below is an example of the generated visualization:
 
-![Temperature Trend Animation](results/temperature_trend.gif)
+![Temperature Trend Animation](results/temperature_trend_10y.gif)
 
 The animation demonstrates how temperatures' 10-year moving averages have moved over time, with the red curve representing specific 10 year period and grey representing past periods.
 
 Below is the final iteration (2014-2023) from previous animation showing by how much the temperature increased in each month compared to cummulative average:
 
-![10_year](https://github.com/user-attachments/assets/81917482-b276-496b-8893-47a47edbe242)
+![10_year](results/10_years.png)
 
 
 ## Acknowledgments
