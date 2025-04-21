@@ -8,7 +8,7 @@ This repository contains an analysis of air temperature trends in Slovakia from 
 
 Two Python scripts are included:
 - **Data Download Script**: Downloads monthly air temperature data for Slovakia from the Copernicus Climate Change Service (C3S).
-- **Analysis and Visualization Script**: Processes and visualizes the data as an animated GIF showing 10-year moving averages.
+- **Analysis and Visualization Script**: Processes and visualizes the data as an animated GIF showing n-year moving averages.
 
 The GIF reveals a clear upward trend in temperatures, with a notable finding: the months of May, and to a lesser extent April, show a smaller increase in temperature compared to other months.
 
