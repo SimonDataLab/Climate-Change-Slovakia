@@ -74,7 +74,7 @@ The animated GIF (`temperature_trend.gif`) visualizes 10-year moving averages of
 
 Below is an example of the generated visualization:
 
-![Temperature Trend Animation](results/temperature_trend_10y.gif)
+![Temperature Trend Animation](results/temperature_trends_10y.gif)
 
 The animation demonstrates how temperatures' 10-year moving averages have moved over time, with the red curve representing specific 10 year period and grey representing past periods.
 
