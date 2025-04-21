@@ -63,8 +63,8 @@ for year in years:
             df['2m_temperature'] = df['t2m'] - 273.15
         
         # Ensure longitude and latitude are included and rename 'date' to 'time' if necessary
-        if 'date' in df.columns:
-            df.rename(columns={'date': 'time'}, inplace=True)
+        if 'valid_time' in df.columns:
+            df.rename(columns={'valid_time': 'time'}, inplace=True)
         columns_to_include = ['time', 'latitude', 'longitude', '2m_temperature']
         df = df[columns_to_include]
 
@@ -85,3 +85,4 @@ if combined_data:
     print(f"All data from 1940 to 2024 has been written to {excel_file}.")
 else:
     print("No data was downloaded or processed.")
+
